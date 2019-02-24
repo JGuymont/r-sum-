@@ -1,0 +1,225 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{\href{https://www.linkedin.com/in/jonathan-guymont-69142598/?locale=en_US}{\Large Jonathan Guymont}} & Email : \href{mailto:j.guymont@gmail.com}{j.guymont@gmail.com}\\
+    & Mobile : +1-819-314-3726 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+            {Quebec Artificial Intelligence Institute (Mila)}{Montreal, Canada}
+            {Master of Science in Computer Science}{Jan. 2018 -- present}
+        \resumeSubheading
+            {Université de Montréal}{Montreal, Canada}
+            {Bachelor of Science in Mathematics;  GPA: 3.98}{Jan. 2015 -- Dec. 2017}
+        \resumeSubheading
+            {Université de Sherbrooke}{Sherbrooke, Canada}
+            {Minor in Commerce}{Sept. 2013 -- Aug. 2014}
+    \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+    \resumeSubHeadingListStart
+
+        \resumeSubheading
+            {National Bank of Canada}{Montreal, Canada}
+            {AI Scientist}{Summer 2018}
+            \resumeItemListStart
+                \resumeItem{Training}
+                    {Prepare workshops on machine learning topics including Autoencoders, Convolutional Neural Networks, and Generative Models.}
+                \resumeItem{Dialog System}
+                    {Create a dialog system to facilitate information retrieval for both employees and clients and ultimately automate some services.}
+            \resumeItemListEnd
+
+        \resumeSubheading
+            {\textsc{HEC} Montréal}{Montreal, Canada}
+            {Research Internship on Weather Derivatives and Risk Management}{Summer 2017}
+            \resumeItemListStart
+                \resumeItem{Time Series Model}
+                    {Create a model to fit the temperature distribution using a GARCH model in order to simulate temperature path.}
+                \resumeItem{Crop Model}
+                    {Create a predictive model to infer crop yield from temperature.}
+                \resumeItem{Risk Management}
+                    {Find a way to hedge production risk due to temperature anomalies using weather derivatives}
+            \resumeItemListEnd
+
+        \resumeSubheading
+            {Intact Insurance}{Montreal, Canada}
+            {Analyst, Commercial Pricing}{Fall 2016}
+            \resumeItemListStart
+                \resumeItem{Pricing}
+                    {Revise part of a pricing algorithm used for commercial insurance.}
+                \resumeItem{Performance Analysis}
+                    {Produce analysis tools. Produce performance analysis and  performance reports.}
+            \resumeItemListEnd
+        
+        \resumeSubheading
+            {Normandin Beaudry Inc.}{Montreal, Canada}
+            {Analyst in Asset Management and Pension Funds}{Winter 2016}
+            \resumeItemListStart
+                \resumeItem{Asset Management}
+                    {Participate in real estate research. Attend meetings with various investment fund managers. Perform monthly and quarterly performance reports.}
+                \resumeItem{Pension Funds}
+                    {Perform actuarial valuations.}
+            \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Extracurricular Projects}
+    \resumeSubHeadingListStart
+        \resumeSubItem{DataDive 2017, \textit{McGill University}}
+            {First place in Economics for using a machine learning algorithm to manage default risk for loan issuers.}
+        \resumeSubItem{Coopérathon 2017, \textit{Montreal}}
+            {Winner of the Catallaxy/RCGT prize for creating a POC for a chatbot that can anwser tax questions.}
+    \resumeSubHeadingListEnd
+
+
+\section{Scolarships and Distinctions}
+    \resumeSubHeadingListStart
+        \resumeSubItem{May 2017}
+            {Natural Sciences and Engineering Research Council (NSERC) Scolarship.}
+        \resumeSubItem{2016-2017}
+            {Dean's list, Faculté des arts et des sciences de l'Université de Montéal.}
+    \resumeSubHeadingListEnd
+
+%Section: Languages
+\section{Languages}
+	\resumeSubHeadingListStart
+		\resumeSubItem{French}
+			{Mother tongue}
+		\resumeSubItem{English}
+			{Fluent}
+	\resumeSubHeadingListEnd
+
+\section{Programming}
+
+    \resumeSubHeadingListStart
+
+        \resumeSubItem{Languages}
+            {Python, R, Matlab, JavaScript, VBA, Latex}
+        \resumeSubItem{Machine Learning Frameworks}
+            {Pytorch, Tensorflow, Scikit-learn, Spacy}
+        \resumeSubItem{Technologies}
+            {Google Cloud, React Native}
+
+    \resumeSubHeadingListEnd
+
+\section{Social commitments and school projects}
+
+    \resumeSubHeadingListStart
+
+        \resumeSubheading
+            {Trading, Investment, and Risk Management team}{Université de Montréal}
+            {VP Internal Operations}{2017-2018}
+            \resumeItemListStart
+                \resumeItem{Seminars and networking}
+                    {Organize fintech seminars and workshops for students.  Educate students about career opportunities in quantitative finance by inviting speakers who work in the field.}
+                \resumeItem{Trading competitions}
+                    {Train and practice to compete in trading competitions. Trading algorithms are written using Python programming language. The Interactive Broker platform is used to test the performance of the algorithms with paper trading.}
+            \resumeItemListEnd
+	
+        \resumeSubheading	
+            {Portfolio management track}{Université de Sherbrooke}
+                {Risk management team}{Fall 2014}
+                \resumeItemListStart
+                    \resumeItem{Risk management}
+                        {Design tools for performance analysis and portfolio risk management.}
+                \resumeItemListEnd
+	
+        \resumeSubheading
+            {Fédération étudiante de l'Université de Sherbrooke (FEUS)}{Université de Sherbrooke}
+            {Secretary General}{Summer 2014}
+            \resumeItemListStart
+                \resumeItem{Finances and regulations}
+                    {Apply and enforce FEUS regulations. Conduct an evaluation of the various investments and portfolios of the FEUS.  Conduct an evaluation of the \textit{Pub} project (creation of a bar on campus).  Establish a 2014-2015 Goal Plan for the \textit{Pub} project.}
+                \resumeItem{Organization} 
+                    {Follow up on the different instances and reports of FEUS representatives. Prepare assemblies.}
+            \resumeItemListEnd
+	
+        \resumeSubheading
+            {Drummondville's Patriots high school football team}{La Poudrière, Drummondville}
+            {Volunteer football coach as defensive coordinator}{2009-2011}
+            \resumeItemListStart
+                \resumeItem{Coach}
+                    {Prepare the schedules of camps and practices. Participate in recruting players. Teach techniques and strategies to the players.}
+            \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+\section{Sport}
+    \resumeSubHeadingListStart
+        \resumeSubItem{Football}
+            {Sport played for 9 years. Captain of two teams. Award for best defensive lineman (2013). All Star Team (2010 and 2013). Nomination for Athlete of the Year in high school (2010). Recruited to be part of the elite team of Estrie-Centre du Québec for a provincial competition (2009).}
+    \resumeSubHeadingListEnd
+
+\end{document}
